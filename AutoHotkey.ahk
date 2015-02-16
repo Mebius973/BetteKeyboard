@@ -52,3 +52,27 @@ Send /surrender
 Sleep, 50
 Send {Enter}
 return
+
+NumpadDiv::
+Send {Enter}
+Sleep, 50
+Send top
+Sleep, 50
+Send {Enter}
+return
+
+NumpadMult::
+Send {Enter}
+Sleep, 50
+Send mid
+Sleep, 50
+Send {Enter}
+return
+
+NumpadSub::
+Send {Enter}
+Sleep, 50
+Send jungle
+Sleep, 50
+Send {Enter}
+return
