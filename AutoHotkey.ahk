@@ -53,7 +53,7 @@ Sleep, 50
 Send {Enter}
 return
 
-NumpadDiv::
+NumpadUp::
 Send {Enter}
 Sleep, 50
 Send top
@@ -61,7 +61,7 @@ Sleep, 50
 Send {Enter}
 return
 
-NumpadMult::
+NumpadPgUp::
 Send {Enter}
 Sleep, 50
 Send mid
@@ -69,10 +69,20 @@ Sleep, 50
 Send {Enter}
 return
 
-NumpadSub::
+NumpadRight::
 Send {Enter}
 Sleep, 50
 Send jungle
 Sleep, 50
 Send {Enter}
 return
+
+SetTitleMatchMode 2
+#IfWinActive MAGICKA® 2
+a::q
+q::a
+z::w
+w::z
+m::,
+,::m
+#IfWinActive 
