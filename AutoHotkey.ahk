@@ -85,4 +85,5 @@ z::w
 w::z
 m::,
 ,::m
+XButton1::MButton
 #IfWinActive 
