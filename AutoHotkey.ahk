@@ -37,9 +37,20 @@ Return
 
 #IfWinActive
 
+; Windows Shortcut
 
+;; Various ninja shortcuts
 
-; Multimedia keys mapping
+!Left::SendInput {Home}
+!Right::SendInput {End}
+!+Left::SendInput +{Home}
+!+Right::SendInput +{End}
+!^Left::SendInput ^{Home}
+!^Right::SendInput ^{End}
+!+^Left::SendInput +^{Home}
+!+^Right::SendInput +^{End}
+
+;; Multimedia keys mapping
 
 RWin & F1::Send {Volume_Mute}
 
